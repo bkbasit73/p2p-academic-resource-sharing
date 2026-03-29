@@ -1,5 +1,11 @@
 This is a sample academic file.
-This is a sample academic file.
-This is a sample academic file.
-This is a sample academic file.
-This is a sample academic file.
+This file is used for testing file transfer in the P2P Academic Resource Sharing Network project.
+The server sends this file to the client using Java sockets.
+The client receives the file and saves it locally.
+SHA-256 hashing is used to verify file integrity after transfer.
+Packet loss simulation and retry logic are also tested in this project.
+This is additional sample text to make the file larger for packet loss testing.
+This is additional sample text to make the file larger for packet loss testing.
+This is additional sample text to make the file larger for packet loss testing.
+This is additional sample text to make the file larger for packet loss testing.
+This is additional sample text to make the file larger for packet loss testing.

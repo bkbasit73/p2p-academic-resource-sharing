@@ -8,8 +8,7 @@ public class Server {
 
         int port = 6000;
 
-        try {
-            ServerSocket serverSocket = new ServerSocket(port);
+        try (ServerSocket serverSocket = new ServerSocket(port)) {
             System.out.println("Multi-threaded server started...");
             System.out.println("Waiting for clients on port " + port);
 
