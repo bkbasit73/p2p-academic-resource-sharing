@@ -1,15 +1,33 @@
 # Compiled Java files
 *.class
 
+<<<<<<< HEAD
 # VS Code settings
 .vscode/
 
 # Logs
 *.log
 
+=======
+# Log files
+log.txt
+
+# VS Code settings
+.vscode/
+
+>>>>>>> da39d8bf64658d2dcb238a34490eac57a93fa00c
 # OS files
 .DS_Store
 Thumbs.db
 
 # Temporary files
+<<<<<<< HEAD
 *.tmp
+=======
+*.tmp
+*.log
+
+# Java build folders (if created later)
+bin/
+out/
+>>>>>>> da39d8bf64658d2dcb238a34490eac57a93fa00c
